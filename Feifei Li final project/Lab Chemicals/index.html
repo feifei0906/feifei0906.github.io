@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Feifei Chemicals</title>
+    <link type="text/css" rel="stylesheet" href="ffchemicals.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="ffchemicals.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+
+    <body>
+        <header>
+            <h1>
+                <img src="images/ff.jpg" alt="Feifei Chemicals" />
+            </h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="myFirstCarousel" class="carousel slide" data-ride="carousel" style="position: reletive; width: 1000px; margin: 0 auto">
+                            <ol class="carousel-indicators">
+                                <li data-target="#myFirstCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myFirstCarousel" data-slide-to="1"></li>
+                                <li data-target="#myFirstCarousel" data-slide-to="2"></li>
+                                <li data-target="#myFirstCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/title.jpg">
+                                    <div class="carousel-caption"></div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/chem3.jpg">
+                                    <div class="carousel-caption"></div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/chem2.jpg">
+                                    <div class="carousel-caption"></div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/chem1.jpg">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#myFirstCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myFirstCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="col-md-12">
+                <button id="showModal" class="btn btn-default" role="button" data-toggle="modal" href="#modalSpecials">Add to Cart Method</button>
+            </div>
+            <form id="order_form" name="order_form" action="checkout.html" method="get">
+                <section id="Chemicals">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a id="showCollapsedDetails" class="btn btn-primary" role="button" data-toggle="collapse" href="#collapsedDetails" aria-expanded="false"
+                                aria-controls="#collapsedDetails">Featured Lab Chemicals</a>
+                            <div class="collapse" id="collapsedDetails">
+                                <div class="well">
+                                    Common chemistry lab chemicals for home, school, or hobby. We supply all kinds of lab chemicals.
+                                    <div class="navPage-subMenu" id="navPages-1179" aria-hidden="true" tabindex="-1">
+                                        <div class="navPage-subMenu-wrapper">
+                                            <ul class="navPage-subMenu-list">
+                                                <li class="navPage-subMenu-item">
+                                                    <a class="navPage-subMenu-action navPages-action" href="https://www.homesciencetools.com/chemistry/">All Chemistry</a>
+                                                </li>
+                                                <li class="navPage-subMenu-item">
+                                                    <a class="navPage-subMenu-action navPages-action" href="https://www.homesciencetools.com/chemistry/lab-equipment/">Lab Equipment</a>
+                                                </li>
+                                                <li class="navPage-subMenu-item">
+                                                    <a class="navPage-subMenu-action navPages-action" href="https://www.homesciencetools.com/chemistry/glassware-plasticware/">Glassware and Plasticware</a>
+                                                </li>
+                                                <li class="navPage-subMenu-item">
+                                                    <a class="navPage-subMenu-action navPages-action" href="https://www.homesciencetools.com/chemistry/chemistry-kits/">Chemistry Kits</a>
+                                                </li>
+                                                <li class="navPage-subMenu-item">
+                                                    <a class="navPage-subMenu-action navPages-action" href="#products">Chemicals</a>
+                                                </li>
+                                                <li class="navPage-subMenu-item">
+                                                    <a class="navPage-subMenu-action navPages-action" href="https://www.homesciencetools.com/chemistry/balances-digital-scales/">Digital Scales and Balances</a>
+                                                </li>
+                                                <li class="navPage-subMenu-item">
+                                                    <a class="navPage-subMenu-action navPages-action" href="https://www.homesciencetools.com/chemistry/safety-equipment/">Safety Equipment</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="navPage-subMenu-utilities">
+                                                <li>
+                                                    <a href="https://learning-center.homesciencetools.com/science-projects/chemistry/">Chemistry Projects</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://learning-center.homesciencetools.com/article/chemistry-labware-picture-glossary/">Labware Picture Glossary</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://learning-center.homesciencetools.com/article/chemical-safety-and-storage-in-the-homeschool-lab/">Chemical Safety</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modalSpecials" tabindex="-1" role="dialog" aria-labelledby="#myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel">How to add chemicals to shopping cart?</h4>
+                                </div>
+                                <div class="modal-body">
+                                    You can directly click chemicals photo and add it to your shopping cart.
+                                    <br>
+                                    <strong> Click Once: Add One Quantity! </strong>
+                                    <br>Please click on many times if you need more than one chemical.
+                                    <br>
+                                    <strong> Click "Go to Cart" button (under each photo) directly to check your items in your shopping
+                                        cart!
+                                    </strong>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Got it!</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Continue to shopping</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul id="products">
+                        <li>
+                            <a href="#">
+                                <img src="images/phosphatebuffers.jpg" alt="phosphatebuffers" />
+                                <p>Phosphate Buffer,pH 7,</br>for Amperometric D, 500ML</p>
+                                <p>$64.75/each</p>
+                                </br>
+                                <a href="cart.html" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/hydrochloricacid.jpg" alt="hydrochloricacid" />
+                                <p>Hydrochloric Acid-1N </br>2.5L</p>
+                                <p>$37.64/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/sodiumhydroxide.jpg" alt="sodiumhydroxide" />
+                                <p>Sodium Hydroxide, Pellets, </br>Reagent Grade, 500 g</p>
+                                <p>$14.50/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/solvent.jpg" alt="solvent" />
+                                <p>Acetone, ACS Grade, </br>CAS No. 67-64-1 C3H6O, 1L
+                                </p>
+                                <p>$109.00/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/standard.jpg" alt="standard" />
+                                <p>RPI G22040-100.0 31FY52 </br>Glycylglycine Gly-Gly, 3kg</p>
+                                <p>$393.99/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/analyticalreagents.jpg" alt="analyticalreagents" />
+                                <p>2-Propanol (Certified ACS),</br> 4L</p>
+                                <p>$507.38/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pei.jpg" alt="surfactant" />
+                                <p>Surfactant PEI, </br>30g</p>
+                                <p>$110.76/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/inorganicprecursors.jpg" alt="Inorganic Precursors" />
+                                <p>1.725% Gold Chloride </br>50 mL in glass bottle</p>
+                                <p>$420.00/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/be.jpg" alt="Benedict'sSolution" />
+                                <p>Benedict's Solution, 100 ml</p>
+                                <p>$54.71/each</p>
+                                </br>
+                                <a href="cart.html" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/ca.jpg" alt="Calcium Hydroxide" />
+                                <p>Calcium Hydroxide, 30g</p>
+                                <p>$27.68/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/com.jpg" alt="MethylAlcohl" />
+                                <p>Methyl Alcohol, anhydrous, 30 ml</p>
+                                <p>$94.50/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/copper.jpg" alt="solvent" />
+                                <p>Copper II Sulfate (cupric), 100 g</p>
+                                <p>$10.70/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/cu.jpg" alt="standard" />
+                                <p>Bromothymol Blue, 100 ml</p>
+                                <p>$94.91/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/eosin.jpg" alt="analyticalreagents" />
+                                <p>Eosin Y, 1%, 30 ml</p>
+                                <p>$17.35/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/io.jpg" alt="surfactant" />
+                                <p>Sudan III Stain, solution, 15 ml</p>
+                                <p>$9.87/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/iodine.jpg" alt="Inorganic Precursors" />
+                                <p>Fertilizer Soluble, 30 g</p>
+                                <p>$32.00/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/me.jpg" alt="Inorganic Precursors" />
+                                <p>Iodine Biological Stain Solution, 30 ml</p>
+                                <p>$61.79/each</p>
+                                </br>
+                                <a href="cart.html" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/po.jpg" alt="hydrochloricacid" />
+                                <p>Phenolphthalein solution, 30ml</p>
+                                <p>$81.39/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pot.jpg" alt="sodiumhydroxide" />
+                                <p>Potassium Nitrate, 30 g</p>
+                                <p>$14.99/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/ptc.jpg" alt="ptc" />
+                                <p>P.T.C. Test Paper, 100/vial
+                                </p>
+                                <p>$29.99/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/su.jpg" alt="standard" />
+                                <p>Sudan III Stain Solution, </br> 15 ml</p>
+                                <p>$45.00/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/uni.jpg" alt="analyticalreagents" />
+                                <p>Polyvinyl Alcohol 3% Solution, </br> 100 ml</p>
+                                <p>$59.99/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/violet.jpg" alt="surfactant" />
+                                <p>Crystal Violet Hucker's, </br> 15 ml</p>
+                                <p>$85.76/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/aceto.jpg" alt="Inorganic Precursors" />
+                                <p> Acetic Acid, </br> 30 ml</p>
+                                <p>$120.00/each</p>
+                                </br>
+                                <a href="#order" class="add-button" type="submit">Go to Cart</a>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <section id="cart">
+                    <h4>Your Cart</h4>
+                    <section>
+                        <select id="order" name="order" size="10">
+                        </select>
+                        <p id="total">&nbsp;</p>
+                    </section>
+                    <section id="buttons">
+                        <input type="button" name="clear_order" id="clear_order" value="Cancel">
+                        <input type="button" name="place_order" id="place_order" value="Go to Checkout »">
+                    </section>
+                </section>
+                <div id="backtotop">
+                    <a class="top" href="#">Back to Top </a>
+                </div>
+                <div id="bottom" class="wrapper">
+                    <p>We supply a wide variety of chemicals in small quantities. Find chemicals to complete the labs in your
+                        curriculum, or stains for showing detail on microscope slide specimens. Check out our tips for
+                        <a href="https://learning-center.homesciencetools.com/article/making-chemical-solutions-science-lesson/">making solutions</a>. Use a
+                        <a href="https://www.homesciencetools.com/chemistry/balances-digital-scales/">balance</a> for precise weighing of chemicals for your lab.</p>
+                    <p>We highly recommend that you use
+                        <a href="https://learning-center.homesciencetools.com/article/making-chemical-solutions-science-lesson/">safety equipment</a> like goggles, gloves, and a lab apron when using chemicals. Read our
+                        <a href="https://learning-center.homesciencetools.com/article/chemical-safety-and-storage-in-the-homeschool-lab/">Chemical Safety &amp; Storage</a> guidelines for more information.</p>
+                </div>
+                <article id="footer" class="footer-info-col footer-customer-service">
+                    <h5 class="footer-info-heading">How Can We Help?</h5>
+                    <ul class="footer-info-list">
+                        <li>
+                            <a href="https://www.homesciencetools.com/customer-service/">Customer Service</a>
+                        </li>
+                        <li>
+                            <a href="https://www.homesciencetools.com/return-policy/">Returns</a>
+                        </li>
+                        <li>
+                            <a href="https://www.homesciencetools.com/shipping-information/">Shipping</a>
+                        </li>
+                        <li>
+                            <a href="https://www.homesciencetools.com/faqs/">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="https://www.homesciencetools.com/warranty-information/">Purchase Orders</a>
+                        </li>
+                        <li>
+                            <a href="https://www.homesciencetools.com/purchase-orders/">Warranties</a>
+                        </li>
+                    </ul>
+                    <article class="footer-info-col footer-info-col--small" data-section-type="storeInfo">
+                        <h5 class="footer-info-heading">Concact us</h5>
+                        <address>2400 W Bradley Ave, Champaign, IL 61821；
+                            <strong>Call us at: 800-860-6272</strong>
+                            </h5>
+                        </address>
+                    </article>
+                </article>
+            </form>
+        </main>
+    </body>
+
+</html>

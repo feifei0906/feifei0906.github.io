@@ -1,0 +1,131 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    padding: 0 1em 1em;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow-x: auto;
+    overflow-y: scroll;
+    background-color: white;
+    background-repeat: repeat
+}
+header {
+	text-align: relative;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+#showCollapsedDetails{
+	position: center;
+	font-size: 160%;
+	font-weight: 800;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	margin-left: 420px;
+	background-color: blue;
+	color:white;
+	shape-outside: circle();
+}
+.well {
+	text-align: center;
+	font-size: 150%;
+	font-weight: 400;
+	color: blue;
+}
+#showModal {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: .2em;
+	background-color: black;
+	color: red;
+	font-size: 120%;
+	font-weight: 1200;
+}
+#cart h4 {
+	text-align: left;
+	font-size: 150%;
+	font-weight: 800;
+	margin-top: 0;
+	margin-bottom: .2em;
+	color: blue;
+}
+#footer h5 {
+	margin-left: 0.2em;
+	font-size: 100%;
+}
+select {
+	width: 305px;
+}
+#backtotop {
+	text-align: center;
+	font-size: 130%;
+	font-weight: 800;
+	color: blue;
+}
+#bottom p{
+	font-size: 80%;
+	width: 90%;
+	margin-top: .6em;
+}
+ ul {
+	
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+}
+/*chemicals images*/
+#Chemicals ul li {
+	padding: 5px 35px 5px 0;
+    float: left;
+    margin: 20px 5px;
+}
+#footer ul li{
+	display: inline;
+	font-size: 80%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/*chemicals images captions*/
+#Chemicals ul li p {
+	font-size: 100%;
+	font-weight: 800;
+	color: blue;
+	margin-top: .5em;
+}
+#total {
+	margin-top: .5em;
+	margin-bottom: .7em;
+}
+input {
+    width: 150px;
+    margin-right: 5px;
+}
+#buttons {
+	margin-right: .6em;
+	width: 50%;
+	color: red;
+	font-size: 100%;
+	font-weight: 800;
+}
+.add-button {
+	font-size: 120%;
+	font-weight: 800;
+	color: red;
+	margin-top: .5em;
+	margin-bottom: 0;
+}
+address {
+    margin-left: 0.2em;
+    font-size: 80%;
+}
+#sort {
+	width: 16%;
+	height: 16%;
+	margin-top: .7em;
+	margin-bottom: .7em;
+}
+#footer {
+	background: rgb(158, 158, 250); 
+
+}
