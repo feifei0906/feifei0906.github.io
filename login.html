@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<style>
+    form {
+        border: 16px solid #cebdfd;
+        border-style: outset;
+        width: 60%;
+        margin-left: 15em;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 120%;
+        font-size: 200%;
+        color: blue;
+    }
+
+    input[type=text],
+    input[type=password] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 8px;
+        display: block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-left: 10em;
+    }
+
+    label {
+        margin-left: 5em;
+        color: blue;
+        font-size: 120%;
+    }
+
+    button {
+        background-color: rgb(1, 0, 5);
+        color: rgb(250, 3, 3);
+        padding: 10px 10px;
+        margin: 8px 8px;
+        margin-left: 10em;
+        border: none;
+        cursor: pointer;
+        width: 20%;
+        border-radius: 20px;
+    }
+
+    #login {
+        font-size: 120%;
+        font-weight: 500%;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #030000;
+    }
+
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+
+    img.avatar {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    .container {
+        padding: 16px;
+    }
+
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+
+    @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <h1>
+            <img src="images/ff.jpg" alt="Feifei Chemicals" />
+        </h1>
+        <h3>
+            <img src="images/title.jpg" alt="Feifei Chemicals" />
+        </h3>
+    </header>
+    <h2>Welcome to Feifei Chemicals</h2>
+    <form action="index.html">
+        <div class="imgcontainer">
+            <img src="images/login.png" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label>
+                <b>Username</b>
+            </label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label>
+                <b>Password</b>
+            </label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <a href="index.html">
+                <button id="login" type="submit">Login</button>
+            </a>
+            <input type="checkbox" checked="checked"> Remember me
+        </div>
+
+        <div class="container" style="background-color:rgb(158, 158, 250)">
+            <a href="checkout.html">
+                <button type="button" class="cancelbtn">Sign Up</button>
+            </a>
+            <span class="psw">Forgot
+                <a href="forgetpassword.html">password?</a>
+            </span>
+        </div>
+    </form>
+
+</body>
+
+</html>
